@@ -27,9 +27,8 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 	use("dracula/vim")
 	use("nvim-lua/plenary.nvim")
-	--use("christoomey/vim-tmux-navigator")
 	use("tpope/vim-commentary")
-	use("tpope/vim-surround") -- learn this shit
+	use("tpope/vim-surround")
 	use("nvim-tree/nvim-tree.lua")
 	use("kyazdani42/nvim-web-devicons")
 	use("nvim-lualine/lualine.nvim")
@@ -41,7 +40,6 @@ return packer.startup(function(use)
 	use("rafamadriz/friendly-snippets")
 	use("mfussenegger/nvim-dap")
 	use("tpope/vim-fugitive")
-	--use("romgrk/barbar.nvim")
 	use({
 		"ellisonleao/glow.nvim",
 		config = function()
